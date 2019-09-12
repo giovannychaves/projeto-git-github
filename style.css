@@ -1,0 +1,39 @@
+/* Resets */
+
+body, h1, h3, input[type="checkbox"], input[type="text"], input[type="number"], input[type="radio"]{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Geral */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #a9d7d1;
+    font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header h1{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+/* Main */
+
+.main{
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    color: #777;
+}
