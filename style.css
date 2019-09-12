@@ -54,10 +54,52 @@ header h1{
     align-items: center;
 }
 
+.form_txt div{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .form_txt label{
-    margin: 15px;
+    width: 70px;
 }
 
 .form_txt input{
+    padding: 5px;
+    width: 250px;
+}
+
+.form_funcao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.form_funcao span{
+    margin-right: 5px;
+}
+
+.form_funcao select{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.form_recomendar{
+    display: flex;
+    justify-content: center;
+}
+
+.form_recomendar span{
+    margin: 15px;
+    text-align: right;
+}
+
+.form_recomendar_labels{
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.form_recomendar_labels label{
     padding: 5px;
 }

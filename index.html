@@ -18,44 +18,50 @@
         <h3>Como podemos melhorar a Enext</h3>
         <form action="submit">
             <section class="form_txt">
-                <label for="name">
-                    *Name:
+                <div>
+                    <label for="name">*Name:</label>
                     <input type="text" id="name" placeholder="Digite seu nome">
-                </label>
-                <label for="email">
-                    *E-mail:
+                </div>
+                <div>
+                    <label for="email">*E-mail:</label>
                     <input type="text" id="email" placeholder="exemplo@exemplo.com">
-                </label>
-                <label for="idade">
-                    *Idade:
+                </div>
+                <div>
+                    <label for="idade">*Idade:</label>
                     <input type="text" id="idade" placeholder="27/07/1999">
-                </label>
+                </div>
             </section>
 
-            <sapan>Qual a sua atual função ?</sapan>
-            <select name="funcao" id="funcao">
-                <option value="0" selected disabled>Selecione</option>
-                <option value="1">Estudante</option>
-                <option value="2">Estagiário</option>
-                <option value="3">CTL</option>
-                <option value="4">Freelancer</option>
-                <option value="5">Prefere não dizer</option>
-                <option value="6">Outro</option>
-            </select>
+            <section class="form_funcao">
+                <span>Qual a sua atual função ?</span>
+                <select name="funcao" id="funcao">
+                    <option value="0" selected disabled>Selecione</option>
+                    <option value="1">Estudante</option>
+                    <option value="2">Estagiário</option>
+                    <option value="3">CTL</option>
+                    <option value="4">Freelancer</option>
+                    <option value="5">Prefere não dizer</option>
+                    <option value="6">Outro</option>
+                </select>
+            </section>
 
-            <span>Qual a probabilidade de você recomendar a Enext a um amigo?</span>
-            <label for="rd1">
-                <input type="radio" name="college" id="rd1">
-                Com certeza
-            </label>
-            <label for="rd2">
-                <input type="radio" name="college" id="rd2">
-                Talvez
-            </label>
-            <label for="rd3">
-                <input type="radio" name="college" id="rd3">
-                Não sei
-            </label>
+            <section class="form_recomendar">
+                <span>Qual a probabilidade de você recomendar<br> a Enext a um amigo?</span>
+                <article class="form_recomendar_labels">
+                    <label for="rd1">
+                        <input type="radio" name="college" id="rd1">
+                        Com certeza
+                    </label>
+                    <label for="rd2">
+                        <input type="radio" name="college" id="rd2">
+                        Talvez
+                    </label>
+                    <label for="rd3">
+                        <input type="radio" name="college" id="rd3">
+                        Não sei
+                    </label>
+                </article>
+            </section>
             
             <span>O que você mais gosta na Enext ?</span>
             <select name="preferencia" id="preferencia">
