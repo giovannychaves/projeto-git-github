@@ -47,55 +47,72 @@
 
             <section class="form_recomendar">
                 <span>Qual a probabilidade de você recomendar<br> a Enext a um amigo?</span>
-                <article class="form_recomendar_labels">
-                    <label for="rd1">
+                <article class="form_recomendar_opts">
+                    <div>
                         <input type="radio" name="college" id="rd1">
-                        Com certeza
-                    </label>
-                    <label for="rd2">
+                        <label class="lbl" for="rd1">Com certeza</label>
+                    </div>
+                    
+                    <div>
                         <input type="radio" name="college" id="rd2">
-                        Talvez
-                    </label>
-                    <label for="rd3">
+                        <label class="lbl" for="rd2">Talvez</label>
+                    </div>
+
+                    <div>
                         <input type="radio" name="college" id="rd3">
-                        Não sei
-                    </label>
+                        <label class="lbl" for="rd3">Não sei</label>
+                    </div>
                 </article>
             </section>
             
-            <span>O que você mais gosta na Enext ?</span>
-            <select name="preferencia" id="preferencia">
-                <option value="0" selected disabled>Selecione</option>
-                <option value="1">Escritório de trabalho</option>
-                <option value="2">Pessoas</option>
-                <option value="3">Forma de trabalhar</option>
-                <option value="4">Todas as anteriores</option>
-                <option value="5">Nada</option>
-            </select>
+            <section class="form_prefer">
+                <span>O que você mais gosta na Enext ?</span>
+                <select name="preferencia" id="preferencia">
+                    <option value="0" selected disabled>Selecione</option>
+                    <option value="1">Escritório de trabalho</option>
+                    <option value="2">Pessoas</option>
+                    <option value="3">Forma de trabalhar</option>
+                    <option value="4">Todas as anteriores</option>
+                    <option value="5">Nada</option>
+                </select>
+            </section>
 
-            <span>Coisas que devem ser melhoradas no futuro
-            (Marque todas as opções aplicáveis):</span>
-            <input type="checkbox" name="cb1">
-            <label for="cb1">Projetos do Front-end</label>
-
-            <input type="checkbox" name="cb2">
-            <label for="cb2">Projetos do Back-end</label>
-
-            <input type="checkbox" name="cb3">
-            <label for="cb3">Data Science</label>
-
-            <input type="checkbox" name="cb4">
-            <label for="cb4">Forum</label>
-
-            <input type="checkbox" name="cb5">
-            <label for="cb5">Desafios</label>
-
-            <input type="checkbox" name="cb6">
-            <label for="cb6">Metas</label>
-
-            <span>Algum comentário ou sugestão:</span>
-            <textarea name="txtarea" id="txtarea" cols="10" rows="3"></textarea>
-
+            <section class="form_melhora">
+                <span>Coisas que devem ser melhoradas no futuro:<br>
+                (Marque todas as opções aplicáveis)</span>
+                <article>
+                    <div>
+                        <input type="checkbox" id="cb1" name="melhora">
+                        <label class="lbl" for="cb1">Projetos do Front-end</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cb2" name="melhora">
+                        <label class="lbl" for="cb2">Projetos do Back-end</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cb3" name="melhora">
+                        <label class="lbl" for="cb3">Data Science</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cb4" name="melhora">
+                        <label class="lbl" for="cb4">Forum</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cb5" name="melhora">
+                        <label class="lbl" for="cb5">Desafios</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="cb6" name="melhora">
+                        <label class="lbl" for="cb6">Metas</label>
+                    </div>
+                </article>
+            </section>
+                
+            <section>
+                <span>Algum comentário ou sugestão:</span>
+                <textarea name="txtarea" id="txtarea" cols="10" rows="3"></textarea>
+            </section>
+                    
             <input type="button" value="Enviar">
         </form>
     </main>
