@@ -4,13 +4,13 @@
 
 <head>
     <meta charset="UFT-8">
-    <title>Pesquisa de Satisfacao</title>
+    <title>Pesquisa de Satisfação</title>
     <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
     <header>
-        <h1>Pesquisa de Satisfacao</h1>
+        <h1>Pesquisa de Satisfação</h1>
     </header>
     <main>
         <h3>Como podemos melhorar a Enext</h3>
@@ -20,25 +20,50 @@
                 <input type="text" id="name">
             </label>
             <label for="email">
-                *E-mail
+                *E-mail:
                 <input type="text" id="email">
             </label>
             <label for="idade">
-                *Idade
+                *Idade:
                 <input type="number" id="idade">
             </label>
-            <label for="">
-                Qual a sua atual funcao ?
-                <select name="funcao" id="funcao">
-                    <option value="0" selected disabled>Selecione</option>
-                    <option value="1">Estudante</option>
-                    <option value="2">Estagiario</option>
-                    <option value="3">CTL</option>
-                    <option value="4">Freelancer</option>
-                    <option value="5">Prefere nao dizer</option>
-                    <option value="6">Outro</option>
-                </select>
+
+            <sapan>Qual a sua atual função ?</sapan>
+            <select name="funcao" id="funcao">
+                <option value="0" selected disabled>Selecione</option>
+                <option value="1">Estudante</option>
+                <option value="2">Estagiário</option>
+                <option value="3">CTL</option>
+                <option value="4">Freelancer</option>
+                <option value="5">Prefere não dizer</option>
+                <option value="6">Outro</option>
+            </select>
+
+            <span>Qual a probabilidade de você recomendar a Enext a um amigo?</span>
+            <label for="rd1">
+                <input type="radio" name="college" id="rd1">
+                Com certeza
             </label>
+            <label for="rd2">
+                <input type="radio" name="college" id="rd2">
+                Talvez
+            </label>
+            <label for="rd3">
+                <input type="radio" name="college" id="rd3">
+                Não sei
+            </label>
+            
+            <span>O que você mais gosta na Enext ?</span>
+            <select name="preferencia" id="preferencia">
+                <option value="0" selected disabled>Selecione</option>
+                <option value="1">Escritório de trabalho</option>
+                <option value="2">Pessoas</option>
+                <option value="3">Forma de trabalhar</option>
+                <option value="4">Todas as anteriores</option>
+                <option value="5">Nada</option>
+            </select>
+
+            
         </form>
     </main>
 </body>
