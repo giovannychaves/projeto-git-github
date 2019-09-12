@@ -1,6 +1,6 @@
 /* Resets */
 
-body, h1, h3, input[type="checkbox"], input[type="text"], input[type="number"], input[type="radio"]{
+body, h1, h3, input[type="checkbox"], input[type="text"], input[type="radio"]{
     margin: 0px;
     padding: 0px;
 }
@@ -24,6 +24,7 @@ body{
 /* Header */
 
 header h1{
+    font-size: 36px;
     text-align: center;
     margin-top: 60px;
     margin-bottom: 20px;
@@ -33,7 +34,30 @@ header h1{
 
 .main{
     background-color: white;
-    padding: 50px;
+    padding: 40px;
     border-radius: 10px;
     color: #777;
+    font-size: 18px;
+}
+
+.main h3{
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Form */
+
+.form_txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_txt label{
+    margin: 15px;
+}
+
+.form_txt input{
+    padding: 5px;
 }
