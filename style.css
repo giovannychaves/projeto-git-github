@@ -21,6 +21,10 @@ body{
     margin: 0 auto;
 }
 
+label{
+    cursor: pointer;
+}
+
 /* Header */
 
 header h1{
@@ -216,6 +220,6 @@ input[type="button"]{
 input[type="button"]:hover{
     box-shadow: 1px 1px 0 0 #59ace0,
                 2px 2px 0 0 #777;
-
     transition: 0.3s;
+    cursor: pointer;
 }
