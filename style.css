@@ -179,3 +179,43 @@ input[type="checkbox"] + .lbl::before{
 input[type="checkbox"]:checked + .lbl::before{
     background-color: #222;
 }
+
+.form_txtarea{
+    display: flex;
+    justify-content: center;
+}
+
+.form_txtarea span{
+    margin: 15px;
+}
+
+.form_txtarea textarea{
+    margin: 15px 15px 15px 0px;
+    max-width: 260px;
+    width: 100%;
+    height: 70px;
+    padding: 3px;
+}
+
+input[type="button"]{
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 15px auto 0 auto;
+    display: block;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #59ace0;
+    box-shadow: 3px 3px 0 0 #59ace0,
+                4px 4px 0 0 #777;
+    border: 1px solid #777;
+}
+
+input[type="button"]:hover{
+    box-shadow: 1px 1px 0 0 #59ace0,
+                2px 2px 0 0 #777;
+
+    transition: 0.3s;
+}
