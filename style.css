@@ -223,3 +223,54 @@ input[type="button"]:hover{
     transition: 0.3s;
     cursor: pointer;
 }
+
+@media screen and (max-width: 650px){
+    .form_funcao{
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .form_funcao span{
+        margin-bottom: 10px;
+    }
+
+    .form_recomendar{
+        flex-direction: column;
+        text-align: center;
+        margin: 10px;
+    }
+
+    .form_recomendar span{
+        text-align: center;
+        margin: 10px 0 0 0;
+    }
+
+    .form_prefer{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 0 15px 0;
+    }
+
+    .form_prefer span{
+        margin-bottom: 10px;
+    }
+
+    .form_melhora{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .form_melhora span{
+        margin-bottom: 0px;
+    }
+
+    .form_txtarea{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .form_txtarea span{
+        margin: 0;
+    }
+}
