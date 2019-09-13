@@ -237,12 +237,16 @@ input[type="button"]:hover{
     .form_recomendar{
         flex-direction: column;
         text-align: center;
-        margin: 10px;
+        margin: 15px 0 10px 0;
     }
 
     .form_recomendar span{
         text-align: center;
         margin: 10px 0 0 0;
+    }
+
+    .form_recomendar_opts{
+        margin: 10px 0 15px 0;
     }
 
     .form_prefer{
@@ -272,5 +276,9 @@ input[type="button"]:hover{
 
     .form_txtarea span{
         margin: 0;
+    }
+
+    .form_txtarea textarea{
+        margin: 10px auto 15px auto;
     }
 }
